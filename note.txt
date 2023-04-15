@@ -1,1 +1,10 @@
 sudo apt-get install python3-dev libmysqlclient-dev
+
+connect to mysql:
+
+pip mysql-connector-python
+pip mysqlclient
+
+connect to postgresql:
+
+pip install psycopg2
