@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'blog'
 ]
 
 MIDDLEWARE = [
@@ -74,22 +75,22 @@ WSGI_APPLICATION = "core.wsgi.application"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': 'tesdb',
-    #     'USER': 'hadi',
-    #     'PASSWORD': 'admin123',
-    #     'HOST': 'localhost',
-    #     'PORT': '5432',
-    # }
-     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tes_django',
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'tesdb',
         'USER': 'hadi',
         'PASSWORD': 'admin123',
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': '5432',
     }
+    #  'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'tes_django',
+    #     'USER': 'hadi',
+    #     'PASSWORD': 'admin123',
+    #     'HOST': 'localhost',
+    #     'PORT': '3306',
+    # }
 }
 
 
